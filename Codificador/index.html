@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1><img class="logo_alura" src="img/Logo.png" alt="LOGO ALURA"></h1>
+    </header>
+
+    <section id="textarea">
+
+        <!--objetos a la derecha-->
+        <div class="objIzquierda">
+            <textarea class="textoU" type="text" id="input" placeholder="Escribe aquí tu texto"></textarea>
+                <div class="botones">
+                    <button class="btn1" id="encriptar">Encriptar</button>
+                    <button class="btn2" id="desencriptar">Desencriptar</button>
+                </div>
+        </div>
+        
+        
+        <!--objetos a la izquierda-->
+        <aside class="objDerecha">
+            
+            <section class="ContAside" id="noMensaje">
+                <div>
+                    <p class="p1" id="msjEncriptado"><img src="img/Muñeco.png" alt="Ningun mensaje encontrado - imagen"></p>
+                </div>
+
+                <div class="Cont_aside_texto">
+                    <h2 id="hM" class="aside__h2">Ningún mensaje fue encontrado</h2>
+                    <p id="pM" class="aside__p">Ingresa el texto que desees encriptar o desencriptar</p>
+                    <button class="btn3" id="copMensaje">Copiar</button>
+                </div>
+            </section>
+        </aside>
+    </section>
+    
+    <footer>
+        <h3>Creado por Diego Francisco Romero Nasario </h1>
+    </footer>
+    <script src=" script.js"></script>
+</body>
+
+</html>

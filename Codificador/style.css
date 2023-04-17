@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Inter);
+body{
+    background-color: #E5E5E5;
+}
+aside{
+    display: block;
+    flex-flow: column;
+}
+button{
+    width: 100%
+}
+.btn1{
+    background: #007bff;
+    color: white;
+    width: 328px;
+    height: 67px;
+    margin-right: 25px;
+    border: 0px;
+    border-radius: 3.5em;
+    
+}
+.btn2{
+    margin-left: 25px;
+    background: #D8DFE8;
+    color: #0A3871;
+    width: 328px;
+    height: 67px;
+    border: 10px;
+    border-color: black;
+    border-radius: 3.5em;
+}
+.btn3{
+    background: #FFFFFF;
+    border-color: black;
+    width: 328px;
+    height: 67px;
+    margin: 10px;
+    border-radius: 3.5em;
+}
+section{
+    width: 95%;
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+h2,h3,p{
+    text-align: center;
+    font-family: 'Inter';
+    white-space: nowrap;
+    white-space: initial;
+}
+.textarea{
+    flex-wrap: nowrap;
+    align-items: center;
+    /*left: 200px;*/
+}
+.p1{
+    text-align: justify;
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 32px;  
+}
+.textoU{
+    width: 600px;
+    height: 48px;
+    position:sticky;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+    background-color:transparent;
+    min-height: 75vh;
+    color: #0A3871;
+    outline: none;
+    border: none;   
+}
+.ContAside{
+    border-radius: 3.5em;
+    height: 545px;
+    background-color: white ;
+    min-height: 70vh;
+    min-width: initial;
+}
+.asideB{
+    justify-content: space-between;
+    display: none
+    
+}
+div.botones{
+    left: 200px;
+    flex-direction: row;
+}
+.objDerecha section{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+.objIzquierda div{
+    display: flex;
+    flex-direction: row;
+}
+
+.Cont_aside_text{
+    justify-content: space-between
+}
+.none_aside{
+    display: none
+}
+.ContAside div{
+    align-content: flex-start;
+}
